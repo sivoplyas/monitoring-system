@@ -61,4 +61,7 @@ UDP является менее затратным способом переда
 ## Zabbix
 ## VictoriaMetrics
 ## Nagios
+Push - TICK, VictoriaMetrics.
+Pull - Prometheus, Nagios.
+Гибридные – Zabbix.
 
