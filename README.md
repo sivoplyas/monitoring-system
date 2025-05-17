@@ -24,3 +24,6 @@ SLI = (summ_2xx_requests + summ_3xx_requests) / (summ_all_requests)
 Использовать open source систем мониторинга (например Zabbix, Atatus, Prometheus и т.д.).
 
 ## 4 Вы, как опытный SRE, сделали мониторинг, куда вывели отображения выполнения SLA=99% по http кодам ответов. Вычисляете этот параметр по следующей формуле: summ_2xx_requests/summ_all_requests. Данный параметр не поднимается выше 70%, но при этом в вашей системе нет кодов ответа 5xx и 4xx. Где у вас ошибка?
+В формуле, отсутствует показатель  «summ_3xx_requests». SLI = (summ_2xx_requests + summ_3xx_requests) / (summ_all_requests).
+
+## 5 Опишите основные плюсы и минусы pull и push систем мониторинга.
