@@ -56,12 +56,20 @@ UDP является менее затратным способом переда
 сетевое взаимодействие по протоколу TCP: надёжно, но не так быстро. 
 
 ## 6 Какие из ниже перечисленных систем относятся к push модели, а какие к pull? А может есть гибридные?
-## Prometheus
-## TICK
-## Zabbix
-## VictoriaMetrics
-## Nagios
+### Prometheus
+### TICK
+### Zabbix
+### VictoriaMetrics
+### Nagios
 Push - TICK, VictoriaMetrics.
 Pull - Prometheus, Nagios.
 Гибридные – Zabbix.
 
+## 7 В виде решения на это упражнение приведите скриншот веб-интерфейса ПО chronograf (http://localhost:8888).
+![1](https://github.com/user-attachments/assets/b6b22765-5886-4914-8dde-e42769a9bacb)
+
+## 8 Для выполнения задания приведите скриншот с отображением метрик утилизации cpu из веб-интерфейса.
+![2](https://github.com/user-attachments/assets/577092c0-df97-48fb-bd9c-301eff4da968)
+
+## 9 Там должны появиться метрики, связанные с docker.
+![3](https://github.com/user-attachments/assets/df7928d6-3bb5-4a9d-b20b-e8996bd8310a)
